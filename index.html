@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .main2 table {
+            border-top: thin solid black
+        }
+    </style>
+</head>
+    <body>
+        <div class="main1">
+            <table width="55%" border="1" cellspacing="5" cellpadding="10">
+                <tr>
+                    <th>Heading 1</th>
+                    <th>Heading 2</th>
+                    <th>Heading 3</th>
+                </tr>
+
+                <tr>
+                    <td>the space around each item is 10</td>
+                    <td>the space between table data is 5</td>
+                    <td>The border is 1 for this table</td>
+                </tr>
+
+                <tr colspan="3">
+                    <td colspan="3">This table data takes up the entire row</td>
+                <!--the 3 n 4 th row-->
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2">This item takes up two rows nad two column</td>
+                    <td>This is another cell</td>
+                    <tr>
+                        <td>
+                            <table border="2">
+                            <tr>
+                                <td>How</td>
+                                <td>is</td>
+                            </tr>
+                            <tr>
+                                <td>this</td>
+                                <td>possible?</td>
+                            </tr>
+                            </table>
+                         </td>
+                    </tr>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <p>Table 2-10 pixels of space between content and cell wall, and 5 pixels of space between cells - how do we remove the inner borders? How do we onlt have a border on the top of the table?</p>
+        </div>
+        <div class="main2">
+            <table cellpadding="10" cellspacing="5">
+                <tr>
+                    <th>Heading 1</th>
+                    <th>Heading 2</th>
+                    <th>Heading 3</th>
+                </tr>
+                <tr>
+                    <td>Body Cell 1</td>
+                    <td>Body Cell 2</td>
+                    <td>Body Cell 3</td>
+                </tr>
+                <tr>
+                    <td>Body Cell 1</td>
+                    <td>Body Cell 2</td>
+                    <td>Body Cell 3</td>
+                </tr>
+                <tr>
+                    <td>Footer 1</td>
+                    <td>Footer 2</td>
+                    <td>Footer 3</td>
+                </tr>
+                                    
+            </table>
+
+        </div>
+    </body>
+</html>
